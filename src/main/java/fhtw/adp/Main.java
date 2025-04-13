@@ -2,8 +2,6 @@ package fhtw.adp;
 
 import java.util.concurrent.TimeoutException;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         // Instances
@@ -21,7 +19,7 @@ public class Main {
                 }
                 return retry.attempt(() -> weatherService.getWeatherData(city));
             });
-            System.out.println("Weather Data For the city : " + city + ": " + "\n" + weatherData);
+            System.out.println("WEATHER DATA FOR THE CITY : " + city + ": " + "\n" + weatherData);
         }
         catch (TimeoutException e){
             System.err.println("Request timed out " + e.getMessage());

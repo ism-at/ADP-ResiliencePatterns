@@ -8,7 +8,7 @@ import java.net.URL;
 public class WeatherService {
 
     private static final String API_KEY = "b6d4ec19d9996402131369e8abc2f68d";
-    private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q="; // https://api.adp.com/weather?city=
+    private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
     public String getWeatherData(String city) throws Exception{
 

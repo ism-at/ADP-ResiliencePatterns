@@ -79,9 +79,7 @@ I created API-Key on https://openweathermap.org so let's test it.
 
 ## 7- Final Result:
 
-Weather Data For the city : Vienna:
-{"coord":{"lon":16.3721,"lat":48.2085},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":292.51,"feels_like":291.89,"temp_min":290.86,"temp_max":293.48,"pressure":1009,"humidity":53,"sea_level":1009,"grnd_level":982},"visibility":10000,"wind":{"speed":4.63,"deg":140},"clouds":{"all":0},"dt":1744550911,"sys":{"type":2,"id":2037878,"country":"AT","sunrise":1744517304,"sunset":1744566073},"timezone":7200,"id":2761369,"name":"Vienna","cod":200}
-
-
+WEATHER DATA FOR THE CITY : Vienna:
+{"coord":{"lon":16.3721,"lat":48.2085},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":292.66,"feels_like":292.02,"temp_min":291.41,"temp_max":293.56,"pressure":1009,"humidity":52,"sea_level":1009,"grnd_level":982},"visibility":10000,"wind":{"speed":5.14,"deg":140},"rain":{"1h":0.13},"clouds":{"all":0},"dt":1744551838,"sys":{"type":2,"id":2037878,"country":"AT","sunrise":1744517304,"sunset":1744566073},"timezone":7200,"id":2761369,"name":"Vienna","cod":200}
 
     
