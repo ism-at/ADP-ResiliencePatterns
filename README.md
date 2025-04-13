@@ -9,7 +9,6 @@ that can handle failures in the weather service carefully.
 The application will be used by users who want to get current weather data for any city. 
 It should still work even if the weather API service experiences issues.
 
-_________________________
 
 ## 2- Implemented Resilience Patterns:
 
@@ -19,7 +18,6 @@ _________________________
 
     * Timeout Pattern
 
-_________________________
 
 ## 3- Features:
 
@@ -33,7 +31,6 @@ _________________________
 
         Timeout: If the weather API takes too long to respond, the request will be timed out and canceled to avoid hanging the system.
 
-________________________
 
 ## 4- Implementation:
 
@@ -51,7 +48,6 @@ ________________________
           the request is aborted, preventing the system from hanging indefinitely.
         . Timeout Class will execute API calls asynchronously with a timeout.
 
-________________________
 
 ## 5- Workflow:
 
@@ -73,7 +69,6 @@ Use the Timeout pattern to ensure that the request is canceled if it takes too l
 
     If the API succeeds, the weather data is returned. If it fails, the user is notified accordingly.
 
-__________________________
 
 ## 6- Testing:
 
@@ -81,7 +76,6 @@ I created API-Key on https://openweathermap.org so let's test it.
 
 ![POSTMAN](API.png)
 
-_________________________
 
 ## 7- Final Result:
 
