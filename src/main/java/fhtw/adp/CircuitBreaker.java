@@ -6,7 +6,7 @@ public class CircuitBreaker {
     private int failureCount = 0;
     private boolean open = false;
     private long lastFailureTime = 0;
-    private long coolDownPeriod = 5000; // Which is equal 5 Seconds
+    private long coolDownPeriod = 5000; // 5 Seconds
 
     public boolean isCircutOpen() {
         if (failureCount >= failureThreshold){

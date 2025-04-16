@@ -11,7 +11,7 @@ public class Main {
         WeatherService weatherService = new WeatherService();
 
         try {
-            // Now fetch data for any city
+            // Now fetch data for any city.
             String city = "Vienna";
             String weatherData = timeout.executeWithTimeout(() -> {
                 if (circuitBreaker.isCircutOpen()){

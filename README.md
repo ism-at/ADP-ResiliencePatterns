@@ -76,6 +76,27 @@ I created API-Key on https://openweathermap.org so let's test it.
 
 ![POSTMAN](API.png)
 
+## 7- Unit-Test Result:
+    [INFO] -------------------------------------------------------
+    [INFO]  T E S T S
+    [INFO] -------------------------------------------------------
+    [INFO] Running fhtw.adp.RetryTest
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.044 s - in fhtw.adp.RetryTest
+    [INFO] Running fhtw.adp.CircuitBreakerTest
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.007 s - in fhtw.adp.CircuitBreakerTest
+    [INFO] Running fhtw.adp.WeatherServiceTest
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 s - in fhtw.adp.WeatherServiceTest
+    [INFO] Running fhtw.adp.TimeoutTest
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.006 s - in fhtw.adp.TimeoutTest
+    [INFO]
+    [INFO] Results:
+    [INFO]
+    [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+    [INFO]
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+
 
 ## 7- Final Result:
 
