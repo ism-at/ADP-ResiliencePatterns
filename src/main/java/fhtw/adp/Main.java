@@ -8,7 +8,7 @@ public class Main {
         CircuitBreaker circuitBreaker = new CircuitBreaker();
         Retry retry = new Retry(3, 1000); // Changeable: 3 retry with 1 second
         Timeout timeout = new Timeout(5000); // Changeable also: 5 second
-        WeatherService weatherService = new WeatherService();
+        WeatherAPI weatherAPI = new WeatherService();
 
         try {
             // Now fetch data for any city.
@@ -17,7 +17,7 @@ public class Main {
                 if (circuitBreaker.isCircutOpen()){
                     throw  new RuntimeException("The Circut is open, try again later");
                 }
-                return retry.attempt(() -> weatherService.getWeatherData(city));
+                return retry.attempt(() -> weatherAPI.getWeatherData(city));
             });
             System.out.println("WEATHER DATA FOR THE CITY : " + city + ": " + "\n" + weatherData);
         }

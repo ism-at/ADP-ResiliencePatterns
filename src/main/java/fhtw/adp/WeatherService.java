@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class WeatherService {
+public class WeatherService implements WeatherAPI {
 
     private static final String API_KEY = "b6d4ec19d9996402131369e8abc2f68d";
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
